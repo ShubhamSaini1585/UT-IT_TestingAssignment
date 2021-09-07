@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="Lokesh,Shubham,UT,UT_IT,testing_assignment_8592" />
+  </component>
+</project>
