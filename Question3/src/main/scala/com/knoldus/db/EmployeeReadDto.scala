@@ -5,10 +5,10 @@ import scala.collection.immutable.HashMap
 
 class EmployeeReadDto {
 
-  val lokeshEmployee: Employee = Employee("Lokesh","Kumar",21,15000,"Intern","knoldus","lokesh.kumar@knoldus.com")
-  val rahulEmployee: Employee = Employee("Rahul","Gupta",28,15000,"Software Engineer","Philips","rahul.gupta@philips.com")
+  val shubhamEmployee: Employee = Employee("Shubham","Saini",20,15000,"Intern","knoldus","shubham.saini@knoldus.com")
+  val rakhiEmployee: Employee = Employee("Rakhi","Pareek",29,150000,"Software Engineer","Philips","rakhi.pareek@philips.com")
 
-  val employees: HashMap[String, Employee] = HashMap("Lokesh" -> lokeshEmployee, "Rahul" -> rahulEmployee)
+  val employees: HashMap[String, Employee] = HashMap("Shubham" -> shubhamEmployee, "Rakhi" -> rakhiEmployee)
   def getEmployeeByName(name: String): Option[Employee] = employees.get(name)
 
 }
