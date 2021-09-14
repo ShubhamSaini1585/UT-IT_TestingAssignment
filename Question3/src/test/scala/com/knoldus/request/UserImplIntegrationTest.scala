@@ -23,7 +23,7 @@ class UserImplIntegrationTest extends AnyFlatSpec {
   "User" should "not be created as email id is not valid" in {
     val shubhamUser: User = User("Shubham","saini",23,"Knoldus","shubham.saini@knoldus")
 
-    val result = userImpl.createUser(shivamUser)
+    val result = userImpl.createUser(shubhamUser)
     assert(result.isEmpty)
   }
 
